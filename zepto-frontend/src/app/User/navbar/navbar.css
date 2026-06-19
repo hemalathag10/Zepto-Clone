@@ -1,0 +1,70 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding: 3px 2px;
+    background: white;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Logo */
+.logo img {
+    height: 58px;
+}
+
+/* Location */
+.location {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    color: grey;
+    white-space: nowrap;
+}
+
+/* Search Box */
+.search-box {
+    flex: 1;
+
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    height: 45px;
+    padding: 0 20px;
+
+    border: 1px solid #d7d7df;
+    border-radius: 8px;
+
+    background-color: white;
+}
+
+.search-box .material-icons {
+    font-size: 24px;
+    color: #555;
+}
+
+.search-text {
+    color: #555;
+    font-size: 16px;
+}
+
+/* Profile & Cart */
+.profile,
+.cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    font-size: 14px;
+}
+
+.profile .material-icons,
+.cart .material-icons {
+    font-size: 34px;
+}
